@@ -3,10 +3,46 @@
     margin: 0;
 }
 
-.inter{
+/* shared styles */
+
+.Inter{
     font-family: "Inter", sans-serif;
 }
 
 .Raleway{
     font-family: "Raleway", sans-serif;
+}
+
+.btn-primary{
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* individual styles */
+
+nav{
+    max-width: 1380px;
+    margin: 0px auto;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.nav-content h1{
+    color: rgba(78, 71, 255, 1);
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.nav-content button a{
+    text-decoration: none;
+    color: #ffffff;
+
 }
