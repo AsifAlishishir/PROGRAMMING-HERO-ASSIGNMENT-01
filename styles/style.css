@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+  background-color: #F5F8FF;
+}
+
 /* shared styles */
 
 .Inter{
@@ -21,7 +25,11 @@
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+    box-sizing: border-box;
 }
+
+
 
 button a{
     text-decoration: none;
@@ -181,7 +189,6 @@ nav{
 
 .review-card{
     color: rgba(30, 30, 30, 1);
-    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     gap: 30px;
 }
@@ -202,5 +209,51 @@ nav{
 .user-details .user-description{
     color: rgba(179, 179, 179, 1);
     font-size: 16px;
+    font-weight: 400;
+}
+
+/* NEWSLETTER SECTION STYLES */
+
+.newsletter{
+    max-width: 1200px;
+    margin: 0px auto 100px;
+}
+
+.newsletter-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-content h1{
+    color: rgba(0, 0, 0, 1);
+    font-size: 97px;
+    font-weight: 700;
+}
+
+.newsletter-form{
+    max-width: 500px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+form input, textarea{
+    width: 500px;
+    /* height: 70px; */
+    padding: 20px 32px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input,textarea::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
     font-weight: 400;
 }
