@@ -33,7 +33,10 @@ button a{
 header{
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: repeat-x;
+    margin-bottom: 116px;
 }
+
+/* NAV SECTION STYLES */
 nav{
     max-width: 1200px;
     margin: 0px auto 148px;
@@ -50,6 +53,7 @@ nav{
     font-weight: 900;
 }
 
+/* BANNER SECTION STYLES */
 .banner{
     max-width: 1005px;
     margin: 0px auto;
@@ -66,4 +70,34 @@ nav{
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 37px;
+}
+
+/* ACTION SECTION STYLES */
+
+.action{
+    max-width: 1200px;
+    margin: 0px auto 148px;
+}
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-content{
+    max-width: 510px;
+}
+
+.action-content h1{
+    color: rgba(37, 36, 50, 1);
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.action-content p{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 23px 0;
 }
